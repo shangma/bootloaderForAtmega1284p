@@ -10,10 +10,10 @@
 
 #define  F_CPU 8000000
 #include <util/delay.h>
-# include <avr/interrupt.h>
-# include <avr/boot.h>
-# include <util/delay.h>
-# include "uart.h"
+#include <avr/interrupt.h>
+#include <avr/boot.h>
+#include <util/delay.h>
+#include "uart.h"
 
 #define BOOT_UART_BAUD_RATE 9600
 #define XON                     17      
